@@ -1,5 +1,6 @@
 img {
   width: 600px;
-  border-width: 20px;
+  border-width: 2px;
   border-style: solid;
+  border-color: rgb(105,105,105);
   }
