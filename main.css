@@ -15,5 +15,6 @@ img {
     background-color: rgb(34,34,34);
   }
 a {
+  font-family: "arial";
   color: rgb(255,255,255);
 }
