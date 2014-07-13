@@ -4,3 +4,6 @@ img {
   border-style: solid;
   border-color: rgb(50,50,50);
   }
+  body {
+    background-color: rgb(34,34,34);
+  }
