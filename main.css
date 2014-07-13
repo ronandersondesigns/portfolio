@@ -1,6 +1,6 @@
 h1 {
   color: rgb(200,200,200);
-  font: ariel;
+  font: arial;
 }
 h2 {
   color: rgb(200,200,200);
@@ -13,7 +13,6 @@ img {
   }
   body {
     background-color: rgb(34,34,34);
-    font: garamond;
   }
 a {
   color: rgb(255,255,255);
