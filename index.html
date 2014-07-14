@@ -3,6 +3,17 @@
       <title>Motion Designer
       </title>
       <link href="main.css" rel="stylesheet" type="text/css">
+  
+      <link rel="stylesheet" href="flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="jquery.flexslider.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+      
   </head>
     
     
@@ -14,13 +25,20 @@
   <a href="http://ronandersondesigns.github.io/resume/"> Resume</a> 
   Portfolio
     </h2>
-    <button type="button" onclick="myFunction()">Date</button>
-<p id="demo"></p>
-<script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = Date();
-}
-</script>
+
+    <div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="https://cloud.githubusercontent.com/assets/8130577/3563152/2e73184e-0a21-11e4-8202-15e6b5f966d8.jpg" />
+    </li>
+    <li>
+      <img src="https://cloud.githubusercontent.com/assets/8130577/3563147/e0a71cfa-0a20-11e4-8df6-0430071dd426.jpeg" />
+    </li>
+    <li>
+      <img src="https://cloud.githubusercontent.com/assets/8130577/3563175/153fa2ba-0a22-11e4-9f5f-fd83ada7aacf.jpeg" />
+    </li>
+  </ul>
+</div>
     
   </div>
 <div style="text-align: center"> 
@@ -35,10 +53,6 @@ function myFunction() {
 <img src="https://cloud.githubusercontent.com/assets/8130577/3563238/9c303218-0a26-11e4-81db-7065c91e29e1.jpg" alt="oilpaintings" style="max-width:100%;"><br>
 <img src="https://cloud.githubusercontent.com/assets/8130577/3563234/746d63fe-0a26-11e4-8b26-383dcd5a210a.jpg" alt="charcoalportrait" style="max-width:100%;"><br>
 <img src="https://cloud.githubusercontent.com/assets/8130577/3563227/de47dca6-0a25-11e4-8d93-88c883aaae2f.jpg" alt="charcoalsketches" style="max-width:100%;"><br>
-
-
-
-    
 </div>
 </body>
   </html>
