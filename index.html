@@ -8,6 +8,42 @@
     
 <body>
 
+var Image_slide = new Array("https://cloud.githubusercontent.com/assets/8130577/3563152/2e73184e-0a21-11e4-8202-15e6b5f966d8.jp", "https://cloud.githubusercontent.com/assets/8130577/3563147/e0a71cfa-0a20-11e4-8df6-0430071dd426.jpeg", "https://cloud.githubusercontent.com/assets/8130577/3563175/153fa2ba-0a22-11e4-9f5f-fd83ada7aacf.jpg");// image container
+var Img_Length = Image_slide.length; // container length - 1
+
+function slide(){
+delay = 0;
+start = false;
+for (var i = 0; i <Img_Length; i++) {
+if (start && delay < 1000) {
+delay += 1;
+i--;
+}
+else {
+document.slideshow.scr = Image_slide[i];
+delay = 0;
+}
+start = true;
+}
+}
+function auto(){
+setInterval("slide()",1000);
+}
+
+window.onload = auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
