@@ -12,49 +12,6 @@
 
 
 
-<div id="slideshow" style="width:500px;overflow:hidden;">
-<div id="slideshowimage" style="width:500px;overflow:hidden;">
-</div>
-<div id="slideshowcontrols" style="width:500px;overflow:hidden;">
-<a onClick="alterimage(-1);">Prev</a>
-<a onClick="alterimage(1);">Next</a>
-</div>
-</div>
-
-<script type="text/javascript">
-var images = new Array;
-images[1] = "https://cloud.githubusercontent.com/assets/8130577/3563152/2e73184e-0a21-11e4-8202-15e6b5f966d8.jpg";
-images[2] = "https://cloud.githubusercontent.com/assets/8130577/3563147/e0a71cfa-0a20-11e4-8df6-0430071dd426.jpeg";
-var presentimage = 1;
-function alterimage(alter){
-    presentimage += alter;
-document.getElement('slideshow').innerHTML = presentimage;
-}
-alterimage(0);
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
