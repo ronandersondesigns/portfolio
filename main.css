@@ -13,13 +13,7 @@ h3 {
 h4 {
   color: rgb(255,255,255);
 }
-img {
-  width: 600px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: rgb(50,50,50);
-  }
- html { 
+ { 
   background: url("https://cloud.githubusercontent.com/assets/8130577/3563942/5a9d7a1a-0a60-11e4-8d2c-e442d3f6e2bd.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
