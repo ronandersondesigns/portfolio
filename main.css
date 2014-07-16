@@ -29,7 +29,7 @@ img {
   background-size: cover;
 }
 a {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   color: rgb(220,220,220);
 }
 p {
