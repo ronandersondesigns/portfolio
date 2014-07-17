@@ -59,13 +59,13 @@ h1, h2, h3, h4, h5, h6{
   line-height: 25px; 
 }
 .flexslider {
-    width: 900px;position:center;
-    height: 750px;position:center;
+    width: 900px;
+    height: 750px;
     }
 
 .flexslider .slides img {
-    width: 900px;position:center;
-    height: 750px;position:center;
+    width: 900px;
+    height: 750px;
 }
 
 
