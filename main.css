@@ -58,6 +58,16 @@ a:active {
 h1, h2, h3, h4, h5, h6{
   line-height: 25px; 
 }
+.flexslider {
+    width: 200px;
+    height: 200px;
+}
+
+.flexslider .slides img {
+    width: 200px;
+    height: 200px;
+}
+
 
 /*
  * jQuery FlexSlider v2.2.0
