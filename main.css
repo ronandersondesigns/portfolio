@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6{
 .flexslider a:focus  {outline: none;}
 .slides,
 .flex-control-nav,
-.flex-direction-nav {margin: 20; padding: 0; list-style: none;}
+.flex-direction-nav {margin: 0; padding: 20; list-style: none;}
 
 /* Icon Fonts
 *********************************/
