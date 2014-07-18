@@ -1,15 +1,21 @@
 
 h1 {
-  color: rgb(200,200,200);
-  font-family: "verdana", arial, sans-serif;
+  color: rgb(172,208,239);
+  font-family: 'Shadows Into Light';
+  font-size: 250%;
+  
 }
+
 h2 {
-  font-family: "verdana", arial, sans-serif;
-  color: rgb(255,255,255);
+  color: rgb(228,216,198);
+  font-family: 'Droid Sans', sans-serif;
 }
+
 h3 {
-  color: rgb(255,255,255);
+  color: rgb(228,216,198);
+   font-family: 'Droid Sans', sans-serif;
 }
+
 h4 {
   color: rgb(255,255,255);
 }
@@ -24,13 +30,45 @@ img {
   background-size: cover;
 }
 a {
-  font-family: "arial";
-  color: rgb(255,255,255);
+  font-family: 'Droid Sans', sans-serif;
+  color: rgb(228,216,198);
 }
 p {
   color: rgb(200,200,200);
   width: 200px;
+line-height: .5;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 25px; 
+}
+.flexslider {
+    width: 900px;
+    height: 750px;
+    }
+
+.flexslider .slides img {
+    width: 900px;
+    height: 750px;
+}
+
+
 /*
  * jQuery FlexSlider v2.2.0
  * http://www.woothemes.com/flexslider/
@@ -86,7 +124,7 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider { margin: 0 0 60px; background: #fff; border: 4px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1; }
+.flexslider { margin: 0 0 50px; background: #fff; border: 4px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1; }
 .flex-viewport { max-height: 600px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
 .loading .flex-viewport { max-height: 2000px; }
 .flexslider .slides { zoom: 1; }
