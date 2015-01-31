@@ -19,39 +19,84 @@ h3 {
 h4 {
   color: rgb(255,255,255);
 }
-html { 
-  background: url("https://cloud.githubusercontent.com/assets/8130577/3563942/5a9d7a1a-0a60-11e4-8d2c-e442d3f6e2bd.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body {
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	top: auto;
+	bottom: auto;
+	float: none;
+	border-width: 0px;
+	height: auto;
 }
+.container{
+	margin-top: -10px;
+	margin-left: 0px;
+	margin-bottom: -10px;
+	min-height: 0;
+	height: cover;
+}
+
+.content{
+	margin-top: 82px;
+	margin-bottom: -10px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.logo{
+	margin-top: -1440px;
+	margin-bottom: -10px;
+	margin-right: 0px;
+	margin-left: -210px;
+	padding-top: 0px;
+}
+.buttons{
+	margin-top: 41px;
+	
+}
+
 a {
-  font-family: 'Droid Sans', sans-serif;
-  color: rgb(228,216,198);
+	font-family: 'Droid Sans', sans-serif;
+	color: rgba(73,73,73,1.00);
+	letter-spacing: 5px;
+	word-spacing: 77px;
+	cursor: pointer; cursor: hand;
 }
 p {
-  color: rgb(200,200,200);
-  width: 200px;
-line-height: .5;
+	font-family: 'Droid Sans', sans-serif;
+	color: rgba(73,73,73,1.00);
 }
 
 a:link {
-    text-decoration: none;
+text-decoration: none;
+letter-spacing: 5px;
+	word-spacing: 77px;
 }
 
 a:visited {
-    text-decoration: none;
+letter-spacing: 5px;
+	word-spacing: 77px;
 }
 
 a:hover {
-    text-decoration: none;
+	
+	color: #717A92;
+	letter-spacing: 5px;
+	word-spacing: 77px;
 }
 
 a:active {
-    text-decoration: none;
+	text-decoration: none;
+letter-spacing: 5px;
+	word-spacing: 77px;
 }
-
 h1, h2, h3, h4, h5, h6{
   line-height: 25px; 
 }
