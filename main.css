@@ -59,14 +59,24 @@ body {
 }
 .buttons{
 	margin-top: 41px;
+	letter-spacing: 5px;
+	word-spacing: 77px;
 	
+}
+.images{
+	right: auto;
+	display: inline-block;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	margin-top: 50px;
+	margin-right: 400px;
+	margin-left: 400px;
 }
 
 a {
 	font-family: 'Droid Sans', sans-serif;
 	color: rgba(73,73,73,1.00);
-	letter-spacing: 5px;
-	word-spacing: 77px;
 	cursor: pointer; cursor: hand;
 }
 p {
