@@ -18,13 +18,29 @@ body{
 	margin-right: 0px;
 	margin-left: 0px;
 }
+.col-TopMargin{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    float: center;
+    min-height: 60px;
+}
+.col-LowMargin{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    float: center;
+    min-height: 30px;
+}
+
+
 .logo{
     position: static;
     max-width: 745px;
     margin: 0 auto;    
     width:100%;
     
-    max-width: 475px;
+    max-width: 500px;
     
    
 }
@@ -40,13 +56,6 @@ body{
 	font-family: 'roboto', sans-serif;
 	color: rgba(73,73,73,1.00);	
     
-}
-col-TopMargin{
-    display: inline-block;
-    text-align: center;
-    width:100%;
-    float: center;
-    min-height: 50px;
 }
 .col-title{
     color: rgba(71, 91, 130,1.00);	
@@ -90,7 +99,6 @@ col-TopMargin{
     float: center;
     min-height: 10px;
 }
-
 .col-sony{
     display: inline-block;
     text-align: center;
