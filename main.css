@@ -20,6 +20,7 @@ body{
 	margin-bottom: -10px;
 	margin-right: 0px;
 	margin-left: 0px;
+	float: center;
 }
 .col-TopMargin{
     display: inline-block;
