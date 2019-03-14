@@ -57,64 +57,18 @@ body{
 	color: rgba(73,73,73,1.00);	
     
 }
-.col-title{
-    color: rgba(71, 91, 130,1.00);	
-    display: inline-block;
-    font-size: 12pt;
-    text-align: center;
-    width:100%;
-    float: center;
-    min-height: 40px;
-}
-.col-RC{
-    display: inline-block;
-    font-size: 11pt;
-    text-align: left;
-    width: 300px;
-    min-height: 220px;
-    float: left;
-}
-.col-freelance{
-    display: inline-block;
-    text-align: left;
-    font-size: 11pt;
-    width:300px;
-    min-height: 120px;
-    float: left;
-}
-.col-gutter{
-    display: inline-block;
-    text-align: left;
-    font-size: 11pt;
-    width:39px;
-    min-height: 120px;
-    float: left;
+.images{
+right: auto;
+display: inline-block;
+-webkit-box-sizing: inherit;
+-moz-box-sizing: inherit;
+box-sizing: inherit;
+margin-top: 50px;
+margin-right: 250px;
+margin-left: 250px;
 }
 
-.col-center{
-    display: inline-block;
-    text-align: center;
-    font-size: 11pt;
-    width:100%;
-    float: center;
-    min-height: 10px;
-}
-.col-sony{
-    display: inline-block;
-    text-align: center;
-    font-size: 11pt;
-    width:100%;
-    float: center;
-    min-height: 30px;
-}
-.col-edu{
-    display: inline-block;
-    text-align: center;
-    font-size: 11pt;
-    width:100%;
-    float: center;
-    min-height: 30px;
-}
+
 a {
 	font-family: 'Roboto', sans-serif;
 	color: rgba(73,73,73,1.00);
