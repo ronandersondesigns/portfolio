@@ -13,7 +13,7 @@ h2 {
 
 h3 {
   color: rgb(228,216,198);
-   font-family: 'Droid Sans', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 h4 {
@@ -34,10 +34,9 @@ body {
 	top: auto;
 	bottom: auto;
 	float: none;
-	border-width: 0px;
 	height: 1000px;
 }
-.container{
+.backgroundImage{
 	margin-top: -10px;
 	margin-left: 0px;
 	margin-bottom: -10px;
@@ -45,25 +44,23 @@ body {
 	height: cover;
 }
 
-.content{
-	margin-top: 82px;
-	margin-bottom: -10px;
-	margin-right: 0px;
-	margin-left: 0px;
-}
 .logo{
-	margin-top: -1440px;
+	margin-top: -1700px;
 	margin-bottom: -10px;
-	margin-right: 0px;
-	margin-left: -210px;
+    margin-right: 270px;
+	margin-left: 0px;
 	padding-top: 0px;
+
 }
 .images{
+    
 	margin-top: 25px;
 	margin-bottom: 100px;
-	margin-right: 15%;
-	margin-left: 15%;
+    margin-right: auto;
+	margin-left: auto;
 	padding-top: 25px;
+    width: 600px;
+    
 }
 
 
