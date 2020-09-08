@@ -21,8 +21,13 @@
         
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
         
-        <style>
-        </style>
+       var elem = document.querySelector('.m-p-g');
+
+document.addEventListener('DOMContentLoaded', function() {
+  var gallery = new MaterialPhotoGallery(elem);
+});
+        
+        
     </head>
     <body>
             <div class="top">
@@ -82,12 +87,7 @@
     </a> 
 </center>
             </div>
-        var elem = document.querySelector('.m-p-g');
-
-document.addEventListener('DOMContentLoaded', function() {
-  var gallery = new MaterialPhotoGallery(elem);
-});
-        
+       
         
     
     </body>
