@@ -20,13 +20,7 @@
        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400&display=swap" rel="stylesheet">
         
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
-        
-       var elem = document.querySelector('.m-p-g');
-
-document.addEventListener('DOMContentLoaded', function() {
-  var gallery = new MaterialPhotoGallery(elem);
-});
-        
+      
         
     </head>
     <body>
@@ -87,6 +81,16 @@ document.addEventListener('DOMContentLoaded', function() {
     </a> 
 </center>
             </div>
+        
+        <script src="material-photo-gallery.js"></script>
+		<script>
+        var elem = document.querySelector('.m-p-g');
+
+			document.addEventListener('DOMContentLoaded', function() {
+				var gallery = new MaterialPhotoGallery(elem);
+			});
+		</script>
+        
        
         
     
