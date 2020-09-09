@@ -678,4 +678,4 @@
   }
 
   return Gallery
-})
+}) 
