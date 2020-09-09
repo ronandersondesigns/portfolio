@@ -60,6 +60,7 @@ a:hover {
     text-decoration: none;
     color: #393837;
     cursor: pointer; cursor: hand;
+    color: rgba(255, 255, 255, 1);
 }
 
 a:visited {
