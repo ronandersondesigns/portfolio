@@ -52,7 +52,6 @@ body {
 
 a:active {
     text-decoration: none;
-    color: #393837;
     cursor: pointer; cursor: hand;
 }
 
@@ -65,13 +64,11 @@ a:hover {
 
 a:visited {
     text-decoration: none;
-    color: #393837;
     cursor: pointer; cursor: hand;
 }
 
 a:link {
     text-decoration: none;
-    color: #393837;
     cursor: pointer; cursor: hand;
 }
 
